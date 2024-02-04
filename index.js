@@ -45,7 +45,7 @@ app.use((err, req, res, next) => {
 
 // 404 Error
 app.use((req, res) => {
-  res.status(404).send("404 Not Found!");
+  res.status(404).send("The site is live ! use postman to hit the api's!");
 });
 
 // Server is listening
